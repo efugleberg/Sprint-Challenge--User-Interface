@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML provides meaning to your HTML code.  It allows accessibility for screen readers (machine and human), it provides a roadmap for the next developer reading your code and helps SEO's find your webpages.  Essentially, it makes your code cleaner, easier to read, makes your site accessible, and allows you to style your webpages.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 Block-Level elements start on a new line and take up the full width.  Inline elements DO NOT start on a new line and only take up as much width as necessary.
+
 3. What are the 4 areas of the box model?
 4 areas of the box model are:  Content, Padding, Border, Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Align-items: center works on the cross axis, also called the vertical axis.  It would center the items in your flexbox along the vertical axis.
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable to a team of developers because it simplifies the process of working with other people and makes it easy to collaborate on projects.  Team members can work on files and easily merge their changes in with the master branch of the project - this allows multiple people to work on the same files at the same time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -92,7 +97,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [X] Copy and paste your home page navigation and header into the about page
 * [X] Update the header image with the about page image
 * [X] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

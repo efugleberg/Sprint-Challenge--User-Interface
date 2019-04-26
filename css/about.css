@@ -102,9 +102,44 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.middle-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-stretch;
+    height: 930px;
+}
+
+.middle-content .text-container {
+    width: 360px;
+    margin-bottom: 26px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 20px 8px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    font-size: 110%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .bottom-content {
+      padding: 20px;
+  }
+
 footer {
     width: 100%;
+    margin-top: 20px;
     background: black;
+    margin-bottom: 30px;
 }
 
 footer nav {
